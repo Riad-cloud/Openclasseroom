@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Riad, Data Analyst spécialisé en Power BI, SQL, Python et Excel.">
+  <title>Riad | Data Analyst</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigation principale">
+      <a class="brand" href="index.html" aria-label="Accueil">
+        <span class="brand-symbol">&lt;/&gt;</span>
+        <span>Riad</span>
+        <small>Data Analyst</small>
+      </a>
+
+      <div class="nav-links">
+        <a class="active" href="index.html">Accueil</a>
+        <a href="#" aria-disabled="true">À propos</a>
+        <a href="#projects">Projets</a>
+        <a href="#" aria-disabled="true">Compétences</a>
+        <a href="#" aria-disabled="true">CV</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <a class="github-link" href="https://github.com/TON-IDENTIFIANT" target="_blank" rel="noopener noreferrer">
+        GitHub
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Salut, moi c’est Riad</p>
+
+        <h1>
+          Data Analyst<br>
+          <span>en alternance</span>
+        </h1>
+
+        <p class="hero-description">
+          Je transforme les données en informations utiles pour faciliter la prise de décision.
+          Je conçois des tableaux de bord, automatise les traitements et traduis les besoins métier
+          en solutions concrètes.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Voir mes projets</a>
+          <a class="button button-secondary" href="#contact">Me contacter</a>
+        </div>
+
+        <div class="social-links" aria-label="Liens professionnels">
+          <a href="https://github.com/TON-IDENTIFIANT" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/TON-PROFIL" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="mailto:TON-EMAIL">Email</a>
+        </div>
+      </div>
+
+      <div class="dashboard-card" aria-label="Illustration d'un tableau de bord">
+        <div class="dashboard-top">
+          <div>
+            <p class="dashboard-label">TABLEAU DE BORD</p>
+            <h2>Performance & insights</h2>
+          </div>
+          <span class="status">● Données actualisées</span>
+        </div>
+
+        <div class="kpi-grid">
+          <article class="kpi">
+            <span>Projets</span>
+            <strong>4</strong>
+            <small>académiques et professionnels</small>
+          </article>
+          <article class="kpi">
+            <span>Outils principaux</span>
+            <strong>6</strong>
+            <small>Power BI, SQL, Python…</small>
+          </article>
+          <article class="kpi">
+            <span>Spécialité</span>
+            <strong>BI</strong>
+            <small>reporting et aide à la décision</small>
+          </article>
+        </div>
+
+        <div class="chart-panel">
+          <div class="chart-title">
+            <span>Progression des compétences</span>
+            <strong>2026</strong>
+          </div>
+
+          <div class="bars" aria-hidden="true">
+            <span style="height: 34%"></span>
+            <span style="height: 48%"></span>
+            <span style="height: 44%"></span>
+            <span style="height: 62%"></span>
+            <span style="height: 58%"></span>
+            <span style="height: 76%"></span>
+            <span style="height: 88%"></span>
+          </div>
+        </div>
+
+        <div class="dashboard-bottom">
+          <div>
+            <span class="mini-label">Approche</span>
+            <strong>Comprendre → Analyser → Décider</strong>
+          </div>
+          <div class="impact">↑ Impact métier</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section container" id="projects">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Sélection</p>
+          <h2>Projets à la une</h2>
+        </div>
+        <a href="#" aria-disabled="true">Tous les projets →</a>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="assets/images/sanitoral.svg" alt="Aperçu du projet Sanitoral">
+          <div class="project-content">
+            <h3>Sanitoral</h3>
+            <p>Tableau de bord de pilotage de projets, suivi des délais, budgets et KPI.</p>
+            <div class="tags">
+              <span>Power BI</span><span>DAX</span><span>Excel</span>
+            </div>
+            <a href="#" aria-disabled="true">Voir le projet →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/images/uoi-games.svg" alt="Aperçu du projet UOI Games">
+          <div class="project-content">
+            <h3>UOI Games</h3>
+            <p>Étude de marché du jeu vidéo AAA et recommandations stratégiques.</p>
+            <div class="tags">
+              <span>Excel</span><span>Statistiques</span><span>Power BI</span>
+            </div>
+            <a href="#" aria-disabled="true">Voir le projet →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/images/aeroworld.svg" alt="Aperçu du projet Aéroworld">
+          <div class="project-content">
+            <h3>Aéroworld</h3>
+            <p>Cahier des charges fonctionnel et organisation d’un portfolio data.</p>
+            <div class="tags">
+              <span>Gestion de projet</span><span>Excel</span>
+            </div>
+            <a href="#" aria-disabled="true">Voir le projet →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/images/bulletin-poussiere.svg" alt="Aperçu du projet de suivi environnemental">
+          <div class="project-content">
+            <h3>Suivi environnemental</h3>
+            <p>Automatisation d’un bulletin mensuel avec graphiques, contrôles et export PDF.</p>
+            <div class="tags">
+              <span>Python</span><span>SQL</span><span>Pandas</span>
+            </div>
+            <a href="#" aria-disabled="true">Voir le projet →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-banner container" id="contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Échangeons autour de vos besoins data</h2>
+        <p>Je suis disponible pour discuter d’une opportunité, d’un projet ou d’une mission data.</p>
+      </div>
+      <a class="button button-primary" href="mailto:TON-EMAIL">M’envoyer un email</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 Riad — Data Analyst.</p>
+      <p>Portfolio hébergé avec GitHub Pages.</p>
+    </div>
+  </footer>
+</body>
+</html>
