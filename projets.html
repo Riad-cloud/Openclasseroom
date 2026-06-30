@@ -1,1 +1,683 @@
-<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><meta name="theme-color" content="#060c18"><title>Projets | Riad</title><link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/css/style.css"><script src="assets/js/main.js" defer></script></head><body><header class="site-header"><nav class="navbar container"><a class="brand" href="index.html"><span class="brand-mark">&lt;/&gt;</span><span class="brand-name">Riad</span><span class="brand-role">Data Analyst</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button><div class="nav-links" id="navigation"><a class="" href="index.html">Accueil</a><a class="" href="a-propos.html">À propos</a><a class="active" href="projets.html">Projets</a><a class="" href="competences.html">Compétences</a><a class="" href="cv.html">CV</a><a class="" href="contact.html">Contact</a></div><a class="github-pill" href="https://github.com/Riad-cloud/" target="_blank" rel="noopener noreferrer">GitHub</a></nav></header><main class="placeholder-page"><section class="container placeholder-card" ><p class="eyebrow">Portfolio de Riad</p><h1>Projets</h1><p>Les fiches détaillées seront ajoutées après les pages Accueil et À propos.</p><div class="placeholder-projects"><article id="sanitoral"><h2>Sanitoral</h2><p>Fiche détaillée à construire.</p></article><article id="uoi-games"><h2>UOI Games</h2><p>Fiche détaillée à construire.</p></article><article id="aeroworld"><h2>Aéroworld</h2><p>Fiche détaillée à construire.</p></article><article id="suivi-environnemental"><h2>Suivi environnemental</h2><p>Fiche détaillée à construire.</p></article></div><a class="button primary" href="index.html">Retour à l’accueil</a></section></main><footer class="site-footer"><div class="container footer-inner"><p>© <span id="year">2026</span> Riad — Data Analyst.</p></div></footer></body></html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez les dix projets académiques de Riad : Power BI, SQL, Python, Excel, data visualisation, statistiques, machine learning et RGPD.">
+  <meta name="author" content="Riad Mohamed">
+  <meta name="theme-color" content="#060c18">
+  <title>Projets | Riad — Data Analyst</title>
+
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Aller au contenu</a>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigation principale">
+      <a class="brand" href="index.html" aria-label="Accueil du portfolio de Riad">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span class="brand-name">Riad</span>
+        <span class="brand-role">Data Analyst</span>
+      </a>
+
+      <button class="menu-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="navigation"
+              aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navigation">
+        <a href="index.html">Accueil</a>
+        <a href="a-propos.html">À propos</a>
+        <a class="active" href="projets.html">Projets</a>
+        <a href="competences.html">Compétences</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <a class="github-pill"
+         href="https://github.com/Riad-cloud/"
+         target="_blank"
+         rel="noopener noreferrer">
+        GitHub
+      </a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="projects-hero container">
+      <div class="projects-hero-copy">
+        <p class="eyebrow">Portfolio académique</p>
+        <h1>Mes projets</h1>
+        <p>
+          Dix études de cas réalisées dans des contextes métier variés :
+          banque, assurance, distribution, immobilier, jeu vidéo, industrie
+          pharmaceutique et gouvernance des données.
+        </p>
+      </div>
+
+      <div class="projects-hero-stats" aria-label="Résumé du portfolio">
+        <article>
+          <strong>10</strong>
+          <span>projets académiques</span>
+        </article>
+        <article>
+          <strong>4</strong>
+          <span>familles d’outils</span>
+        </article>
+        <article>
+          <strong>360°</strong>
+          <span>du besoin à la décision</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects-index container" id="liste-projets">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Navigation rapide</p>
+          <h2>Explorer les dix projets</h2>
+        </div>
+        <p class="section-intro">
+          Sélectionnez un projet pour accéder directement à sa fiche détaillée.
+        </p>
+      </div>
+
+      <div class="project-index-grid">
+
+        <article class="project-index-card">
+          <div class="project-index-top">
+            <span class="project-number">01</span>
+            <span class="project-category">Power BI • Gestion de projet</span>
+          </div>
+          <h3>Sanitoral — Pilotage de projets avec Power BI</h3>
+          <p>Un tableau de bord destiné au PMO pour suivre l’avancement, les retards et la performance des projets.</p>
+          <div class="tags"><span>Power BI</span><span>Power Query</span><span>DAX</span></div>
+          <a class="project-button" href="#sanitoral">Voir le projet →</a>
+        </article>
+        <article class="project-index-card">
+          <div class="project-index-top">
+            <span class="project-number">02</span>
+            <span class="project-category">Étude de marché • Statistiques</span>
+          </div>
+          <h3>UOI Games — Étude de marché du jeu vidéo AAA</h3>
+          <p>Une étude stratégique destinée à identifier un segment porteur et le concept d’un premier jeu vidéo AAA.</p>
+          <div class="tags"><span>Excel</span><span>Power BI</span><span>Questionnaire</span></div>
+          <a class="project-button" href="#uoi-games">Voir le projet →</a>
+        </article>
+        <article class="project-index-card">
+          <div class="project-index-top">
+            <span class="project-number">03</span>
+            <span class="project-category">Python • Qualité des données</span>
+          </div>
+          <h3>Bottleneck — Analyse de gestion des stocks avec Python</h3>
+          <p>Le rapprochement de plusieurs sources et l’analyse des ventes, des prix, des marges et de l’état des stocks.</p>
+          <div class="tags"><span>Python</span><span>Pandas</span><span>NumPy</span></div>
+          <a class="project-button" href="#bottleneck-python">Voir le projet →</a>
+        </article>
+        <article class="project-index-card">
+          <div class="project-index-top">
+            <span class="project-number">04</span>
+            <span class="project-category">Power BI • Data visualisation</span>
+          </div>
+          <h3>Bottleneck — Tableau de bord de gestion des stocks</h3>
+          <p>Une solution de data visualisation user friendly destinée au dirigeant et aux chefs de produits.</p>
+          <div class="tags"><span>Power BI</span><span>Power Query</span><span>DAX</span></div>
+          <a class="project-button" href="#bottleneck-power-bi">Voir le projet →</a>
+        </article>
+        <article class="project-index-card">
+          <div class="project-index-top">
+            <span class="project-number">05</span>
+            <span class="project-category">SQL • Expérience client</span>
+          </div>
+          <h3>RetailInsight360 — Analyse des performances commerciales</h3>
+          <p>Une analyse des retours clients et du NPS pour aider BestMarket à améliorer la qualité de son réseau de magasins.</p>
+          <div class="tags"><span>SQL</span><span>SQLite</span><span>SQL Power Architect</span></div>
+          <a class="project-button" href="#retailinsight360">Voir le projet →</a>
+        </article>
+        <article class="project-index-card">
+          <div class="project-index-top">
+            <span class="project-number">06</span>
+            <span class="project-category">Machine learning • Python</span>
+          </div>
+          <h3>Projet immobilier — Analyse prédictive des prix avec Python</h3>
+          <p>Une analyse prédictive destinée à valoriser un portefeuille immobilier et à classer automatiquement les opportunités.</p>
+          <div class="tags"><span>Python</span><span>Pandas</span><span>Scikit-learn</span></div>
+          <a class="project-button" href="#immobilier-python">Voir le projet →</a>
+        </article>
+        <article class="project-index-card">
+          <div class="project-index-top">
+            <span class="project-number">07</span>
+            <span class="project-category">Portfolio • Gestion de projet</span>
+          </div>
+          <h3>Aéroworld — Création d’un portfolio professionnel data</h3>
+          <p>La conception d’un portfolio complet démontrant les compétences techniques, méthodologiques et relationnelles d’un Data Analyst.</p>
+          <div class="tags"><span>GitHub Pages</span><span>Power BI</span><span>Gantt</span></div>
+          <a class="project-button" href="#aeroworld">Voir le projet →</a>
+        </article>
+        <article class="project-index-card">
+          <div class="project-index-top">
+            <span class="project-number">08</span>
+            <span class="project-category">Excel • Data visualisation</span>
+          </div>
+          <h3>Primero Bank — Visualisez des données avec Excel</h3>
+          <p>Une analyse de l’attrition client afin d’identifier les profils susceptibles de quitter la banque.</p>
+          <div class="tags"><span>Excel</span><span>Tableaux croisés dynamiques</span><span>PowerPoint</span></div>
+          <a class="project-button" href="#primero-bank">Voir le projet →</a>
+        </article>
+        <article class="project-index-card">
+          <div class="project-index-top">
+            <span class="project-number">09</span>
+            <span class="project-category">SQL • Modélisation relationnelle</span>
+          </div>
+          <h3>Premières requêtes SQL — Base de contrats d’assurance</h3>
+          <p>La conception d’une base de données de contrats d’assurance habitation et la réalisation de douze analyses SQL.</p>
+          <div class="tags"><span>SQL</span><span>SQLite</span><span>SQL Power Architect</span></div>
+          <a class="project-button" href="#premieres-requetes-sql">Voir le projet →</a>
+        </article>
+        <article class="project-index-card">
+          <div class="project-index-top">
+            <span class="project-number">10</span>
+            <span class="project-category">RGPD • Gouvernance des données</span>
+          </div>
+          <h3>Dev’Immediat — Mission RGPD</h3>
+          <p>Une mission de mise en conformité après une sanction de la CNIL, conciliant anonymisation et continuité de l’analyse commerciale.</p>
+          <div class="tags"><span>SQLite</span><span>SQL</span><span>Power Query</span></div>
+          <a class="project-button" href="#dev-immediat-rgpd">Voir le projet →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="project-details container" aria-label="Fiches détaillées des projets">
+      <div class="section-heading project-details-title">
+        <div>
+          <p class="eyebrow">Études de cas</p>
+          <h2>Présentation détaillée</h2>
+        </div>
+      </div>
+
+
+      <article class="project-detail" id="sanitoral">
+        <div class="project-detail-image">
+          <img src="assets/images/projects/sanitoral.svg"
+               alt="Image temporaire du projet Sanitoral — Pilotage de projets avec Power BI. À remplacer par une capture de la page principale de ton tableau de bord Sanitoral, montrant les KPI, l’avancement, les retards et les budgets.">
+        </div>
+
+        <div class="project-detail-content">
+          <div class="project-detail-heading">
+            <div>
+              <span class="project-number">01</span>
+              <span class="project-category">Power BI • Gestion de projet</span>
+            </div>
+            <a href="#liste-projets">Retour à la liste ↑</a>
+          </div>
+
+          <h2>Sanitoral — Pilotage de projets avec Power BI</h2>
+
+          <div class="project-context">
+            <h3>Contexte</h3>
+            <p>Sanitoral est une entreprise internationale spécialisée dans les soins bucco-dentaires. Son service Project Management Office avait besoin d’un reporting lisible et actualisable chaque semaine pour mieux piloter ses projets.</p>
+          </div>
+
+          <div class="project-objective">
+            <span>Objectif principal</span>
+            <p>Créer un tableau de bord permettant de suivre l’avancement des projets, d’identifier rapidement les retards et de contrôler les principaux indicateurs de performance.</p>
+          </div>
+
+          <div class="project-detail-grid">
+            <section>
+              <h3>Outils utilisés</h3>
+              <div class="tags large-tags"><span>Power BI</span><span>Power Query</span><span>DAX</span><span>Excel</span></div>
+            </section>
+
+            <section>
+              <h3>Compétences démontrées</h3>
+              <ul><li>Cadrage du besoin et formalisation des user stories</li><li>Nettoyage et transformation automatisés des données</li><li>Modélisation d’un modèle de données</li><li>Conception de visualisations et storytelling</li><li>Documentation d’une procédure de mise à jour</li></ul>
+            </section>
+          </div>
+
+          <div class="project-deliverables">
+            <strong>Livrables principaux</strong>
+            <p>Product Strategy Canvas, mock-up, tableau de bord et documentation de mise à jour.</p>
+          </div>
+        </div>
+      </article>
+      <article class="project-detail" id="uoi-games">
+        <div class="project-detail-image">
+          <img src="assets/images/projects/uoi-games.svg"
+               alt="Image temporaire du projet UOI Games — Étude de marché du jeu vidéo AAA. À remplacer par une capture de ton tableau de bord, de l’analyse du questionnaire ou de la diapositive présentant la recommandation ASHFALL.">
+        </div>
+
+        <div class="project-detail-content">
+          <div class="project-detail-heading">
+            <div>
+              <span class="project-number">02</span>
+              <span class="project-category">Étude de marché • Statistiques</span>
+            </div>
+            <a href="#liste-projets">Retour à la liste ↑</a>
+          </div>
+
+          <h2>UOI Games — Étude de marché du jeu vidéo AAA</h2>
+
+          <div class="project-context">
+            <h3>Contexte</h3>
+            <p>UOI Games souhaitait explorer une opportunité business pour développer son premier jeu AAA, un investissement long et coûteux nécessitant une compréhension solide du marché et des préférences des joueurs.</p>
+          </div>
+
+          <div class="project-objective">
+            <span>Objectif principal</span>
+            <p>Analyser les tendances du marché, sélectionner un segment de clientèle pertinent et formuler une recommandation de jeu appuyée par des données factuelles.</p>
+          </div>
+
+          <div class="project-detail-grid">
+            <section>
+              <h3>Outils utilisés</h3>
+              <div class="tags large-tags"><span>Excel</span><span>Power BI</span><span>Questionnaire</span><span>Statistiques</span></div>
+            </section>
+
+            <section>
+              <h3>Compétences démontrées</h3>
+              <ul><li>Analyse SWOT et PESTEL</li><li>Conception et analyse d’un questionnaire</li><li>Tests statistiques, corrélations et segmentation</li><li>Recherche de données externes et veille marché</li><li>Recommandations stratégiques et storytelling</li></ul>
+            </section>
+          </div>
+
+          <div class="project-deliverables">
+            <strong>Livrables principaux</strong>
+            <p>Analyses de marché, questionnaire, tests statistiques, recommandations et présentation finale.</p>
+          </div>
+        </div>
+      </article>
+      <article class="project-detail" id="bottleneck-python">
+        <div class="project-detail-image">
+          <img src="assets/images/projects/bottleneck-python.svg"
+               alt="Image temporaire du projet Bottleneck — Analyse de gestion des stocks avec Python. À remplacer par une capture propre de ton notebook Python avec un graphique de stock, un boxplot ou une analyse du chiffre d’affaires.">
+        </div>
+
+        <div class="project-detail-content">
+          <div class="project-detail-heading">
+            <div>
+              <span class="project-number">03</span>
+              <span class="project-category">Python • Qualité des données</span>
+            </div>
+            <a href="#liste-projets">Retour à la liste ↑</a>
+          </div>
+
+          <h2>Bottleneck — Analyse de gestion des stocks avec Python</h2>
+
+          <div class="project-context">
+            <h3>Contexte</h3>
+            <p>Bottleneck, marchand de vins en ligne, utilisait des exports artisanaux issus de son ERP, de son site web et d’une table de liaison dont les références ne correspondaient pas toujours.</p>
+          </div>
+
+          <div class="project-objective">
+            <span>Objectif principal</span>
+            <p>Fiabiliser les données, rapprocher les différentes sources et produire des analyses utiles au comité de direction sur le chiffre d’affaires, les anomalies et la gestion des stocks.</p>
+          </div>
+
+          <div class="project-detail-grid">
+            <section>
+              <h3>Outils utilisés</h3>
+              <div class="tags large-tags"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Jupyter</span></div>
+            </section>
+
+            <section>
+              <h3>Compétences démontrées</h3>
+              <ul><li>Nettoyage, contrôle et rapprochement de données</li><li>Jointures entre plusieurs sources</li><li>Détection d’anomalies avec l’IQR ou le Z-score</li><li>Analyse Pareto 20/80 et top références</li><li>Analyse des marges, rotations, stocks et corrélations</li></ul>
+            </section>
+          </div>
+
+          <div class="project-deliverables">
+            <strong>Livrables principaux</strong>
+            <p>Notebook d’analyse, synthèse des anomalies et présentation au comité de direction.</p>
+          </div>
+        </div>
+      </article>
+      <article class="project-detail" id="bottleneck-power-bi">
+        <div class="project-detail-image">
+          <img src="assets/images/projects/bottleneck-power-bi.svg"
+               alt="Image temporaire du projet Bottleneck — Tableau de bord de gestion des stocks. À remplacer par une capture du tableau de bord Power BI Bottleneck avec les KPI de ventes, de marge et de stock.">
+        </div>
+
+        <div class="project-detail-content">
+          <div class="project-detail-heading">
+            <div>
+              <span class="project-number">04</span>
+              <span class="project-category">Power BI • Data visualisation</span>
+            </div>
+            <a href="#liste-projets">Retour à la liste ↑</a>
+          </div>
+
+          <h2>Bottleneck — Tableau de bord de gestion des stocks</h2>
+
+          <div class="project-context">
+            <h3>Contexte</h3>
+            <p>Après la fiabilisation des données, Bottleneck souhaitait mettre en place une solution durable de mise à disposition des données et un tableau de bord pour piloter son activité.</p>
+          </div>
+
+          <div class="project-objective">
+            <span>Objectif principal</span>
+            <p>Comparer les solutions d’intégration des données, recommander l’architecture la plus adaptée et concevoir un tableau de bord intégrant des recommandations business.</p>
+          </div>
+
+          <div class="project-detail-grid">
+            <section>
+              <h3>Outils utilisés</h3>
+              <div class="tags large-tags"><span>Power BI</span><span>Power Query</span><span>DAX</span><span>SQLite</span></div>
+            </section>
+
+            <section>
+              <h3>Compétences démontrées</h3>
+              <ul><li>Comparaison de solutions d’accès aux données</li><li>Importation et préparation d’une base SQLite</li><li>Modélisation et création de mesures DAX</li><li>Conception d’un tableau de bord orienté utilisateur</li><li>Formulation de recommandations business</li></ul>
+            </section>
+          </div>
+
+          <div class="project-deliverables">
+            <strong>Livrables principaux</strong>
+            <p>Rapport de préconisation, tableau de bord, trois recommandations business et démonstration.</p>
+          </div>
+        </div>
+      </article>
+      <article class="project-detail" id="retailinsight360">
+        <div class="project-detail-image">
+          <img src="assets/images/projects/retailinsight360.svg"
+               alt="Image temporaire du projet RetailInsight360 — Analyse des performances commerciales. À remplacer par une capture du schéma relationnel, des résultats SQL ou de ta présentation NPS pour BestMarket.">
+        </div>
+
+        <div class="project-detail-content">
+          <div class="project-detail-heading">
+            <div>
+              <span class="project-number">05</span>
+              <span class="project-category">SQL • Expérience client</span>
+            </div>
+            <a href="#liste-projets">Retour à la liste ↑</a>
+          </div>
+
+          <h2>RetailInsight360 — Analyse des performances commerciales</h2>
+
+          <div class="project-context">
+            <h3>Contexte</h3>
+            <p>BestMarket souhaitait exploiter les retours et avis de ses clients. La base initiale devait être complétée avec un référentiel magasins avant de pouvoir répondre aux questions du responsable du service client.</p>
+          </div>
+
+          <div class="project-objective">
+            <span>Objectif principal</span>
+            <p>Formaliser le besoin, enrichir la base de données, contrôler sa qualité et produire des requêtes SQL répondant aux besoins d’analyse du service client.</p>
+          </div>
+
+          <div class="project-detail-grid">
+            <section>
+              <h3>Outils utilisés</h3>
+              <div class="tags large-tags"><span>SQL</span><span>SQLite</span><span>SQL Power Architect</span><span>Excel</span></div>
+            </section>
+
+            <section>
+              <h3>Compétences démontrées</h3>
+              <ul><li>Reformulation d’une expression de besoin</li><li>Mise à jour d’un schéma et d’un dictionnaire de données</li><li>Création et importation d’une table de référence</li><li>Contrôles de cohérence et de qualité</li><li>Requêtes SQL et présentation à un public non technique</li></ul>
+            </section>
+          </div>
+
+          <div class="project-deliverables">
+            <strong>Livrables principaux</strong>
+            <p>Expression du besoin, base enrichie, schéma, dictionnaire, requêtes SQL et présentation.</p>
+          </div>
+        </div>
+      </article>
+      <article class="project-detail" id="immobilier-python">
+        <div class="project-detail-image">
+          <img src="assets/images/projects/immobilier-python.svg"
+               alt="Image temporaire du projet Projet immobilier — Analyse prédictive des prix avec Python. À remplacer par une capture du notebook avec le modèle de régression, la courbe des prix ou la visualisation des clusters immobiliers.">
+        </div>
+
+        <div class="project-detail-content">
+          <div class="project-detail-heading">
+            <div>
+              <span class="project-number">06</span>
+              <span class="project-category">Machine learning • Python</span>
+            </div>
+            <a href="#liste-projets">Retour à la liste ↑</a>
+          </div>
+
+          <h2>Projet immobilier — Analyse prédictive des prix avec Python</h2>
+
+          <div class="project-context">
+            <h3>Contexte</h3>
+            <p>Les Plus Beaux Logis de Paris souhaitaient mieux anticiper les prix des biens et réduire le temps passé à identifier manuellement la nature des nouvelles opportunités immobilières.</p>
+          </div>
+
+          <div class="project-objective">
+            <span>Objectif principal</span>
+            <p>Analyser l’évolution des prix, construire un modèle de régression fiable, valoriser les actifs et utiliser le clustering pour classer automatiquement les biens.</p>
+          </div>
+
+          <div class="project-detail-grid">
+            <section>
+              <h3>Outils utilisés</h3>
+              <div class="tags large-tags"><span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>Matplotlib</span><span>Jupyter</span></div>
+            </section>
+
+            <section>
+              <h3>Compétences démontrées</h3>
+              <ul><li>Exploration et visualisation de données</li><li>Sélection de variables explicatives</li><li>Régression et évaluation de l’erreur de prédiction</li><li>Clustering et classification automatique</li><li>Interprétation des limites et recommandations business</li></ul>
+            </section>
+          </div>
+
+          <div class="project-deliverables">
+            <strong>Livrables principaux</strong>
+            <p>Notebook de modélisation, valorisation du portefeuille, clustering et présentation client.</p>
+          </div>
+        </div>
+      </article>
+      <article class="project-detail" id="aeroworld">
+        <div class="project-detail-image">
+          <img src="assets/images/projects/aeroworld.svg"
+               alt="Image temporaire du projet Aéroworld — Création d’un portfolio professionnel data. À remplacer par une capture de ton portfolio final, de ton diagramme de Gantt ou de ton tableau de bord de présentation du profil.">
+        </div>
+
+        <div class="project-detail-content">
+          <div class="project-detail-heading">
+            <div>
+              <span class="project-number">07</span>
+              <span class="project-category">Portfolio • Gestion de projet</span>
+            </div>
+            <a href="#liste-projets">Retour à la liste ↑</a>
+          </div>
+
+          <h2>Aéroworld — Création d’un portfolio professionnel data</h2>
+
+          <div class="project-context">
+            <h3>Contexte</h3>
+            <p>Aéroworld souhaitait présélectionner ses candidats à partir de leur portfolio. Le projet consistait à organiser et produire un support professionnel répondant à un cahier des charges exigeant.</p>
+          </div>
+
+          <div class="project-objective">
+            <span>Objectif principal</span>
+            <p>Piloter la création d’un portfolio démontrant le profil, les projets, les compétences, les soft skills et la capacité à conduire un projet data de bout en bout.</p>
+          </div>
+
+          <div class="project-detail-grid">
+            <section>
+              <h3>Outils utilisés</h3>
+              <div class="tags large-tags"><span>GitHub Pages</span><span>Power BI</span><span>Gantt</span><span>Mock-up</span><span>PowerPoint</span></div>
+            </section>
+
+            <section>
+              <h3>Compétences démontrées</h3>
+              <ul><li>Analyse des besoins métier</li><li>Rédaction d’un cahier des charges fonctionnel</li><li>Planification et gestion de projet</li><li>Conception de mock-ups et tableaux de bord</li><li>Documentation, formation et communication</li></ul>
+            </section>
+          </div>
+
+          <div class="project-deliverables">
+            <strong>Livrables principaux</strong>
+            <p>Carte mentale, analyse du besoin, cahier des charges, Gantt, mock-ups, tableaux de bord, vidéo, documentation et portfolio.</p>
+          </div>
+        </div>
+      </article>
+      <article class="project-detail" id="primero-bank">
+        <div class="project-detail-image">
+          <img src="assets/images/projects/primero-bank.svg"
+               alt="Image temporaire du projet Primero Bank — Visualisez des données avec Excel. À remplacer par une capture de ta présentation Primero Bank montrant une visualisation du churn ou le profil des clients à risque.">
+        </div>
+
+        <div class="project-detail-content">
+          <div class="project-detail-heading">
+            <div>
+              <span class="project-number">08</span>
+              <span class="project-category">Excel • Data visualisation</span>
+            </div>
+            <a href="#liste-projets">Retour à la liste ↑</a>
+          </div>
+
+          <h2>Primero Bank — Visualisez des données avec Excel</h2>
+
+          <div class="project-context">
+            <h3>Contexte</h3>
+            <p>Primero Bank faisait face à de nombreux départs de clients. La direction commerciale devait comprendre les facteurs associés à ces départs avant de définir un plan d’action.</p>
+          </div>
+
+          <div class="project-objective">
+            <span>Objectif principal</span>
+            <p>Comparer les clients partis et les clients actifs, identifier les profils à risque et communiquer les conclusions au moyen de visualisations accessibles.</p>
+          </div>
+
+          <div class="project-detail-grid">
+            <section>
+              <h3>Outils utilisés</h3>
+              <div class="tags large-tags"><span>Excel</span><span>Tableaux croisés dynamiques</span><span>PowerPoint</span><span>WebAIM</span></div>
+            </section>
+
+            <section>
+              <h3>Compétences démontrées</h3>
+              <ul><li>Analyse exploratoire et segmentation client</li><li>Fonctions statistiques et agrégations Excel</li><li>Création de tableaux croisés dynamiques</li><li>Choix de graphiques adaptés</li><li>Accessibilité, vulgarisation et présentation</li></ul>
+            </section>
+          </div>
+
+          <div class="project-deliverables">
+            <strong>Livrables principaux</strong>
+            <p>Rapport d’analyse PDF et présentation de 15 diapositives maximum avec au moins cinq visualisations accessibles.</p>
+          </div>
+        </div>
+      </article>
+      <article class="project-detail" id="premieres-requetes-sql">
+        <div class="project-detail-image">
+          <img src="assets/images/projects/premieres-requetes-sql.svg"
+               alt="Image temporaire du projet Premières requêtes SQL — Base de contrats d’assurance. À remplacer par une capture de ton schéma relationnel ou d’une requête SQL avec son résultat dans SQLiteStudio.">
+        </div>
+
+        <div class="project-detail-content">
+          <div class="project-detail-heading">
+            <div>
+              <span class="project-number">09</span>
+              <span class="project-category">SQL • Modélisation relationnelle</span>
+            </div>
+            <a href="#liste-projets">Retour à la liste ↑</a>
+          </div>
+
+          <h2>Premières requêtes SQL — Base de contrats d’assurance</h2>
+
+          <div class="project-context">
+            <h3>Contexte</h3>
+            <p>Une entreprise d’assurance souhaitait mieux comprendre le marché de l’habitation à partir de données de contrats clients et d’un référentiel géographique des régions françaises.</p>
+          </div>
+
+          <div class="project-objective">
+            <span>Objectif principal</span>
+            <p>Explorer les données, concevoir un modèle relationnel normalisé, créer et charger la base puis répondre aux questions métier avec des requêtes SQL.</p>
+          </div>
+
+          <div class="project-detail-grid">
+            <section>
+              <h3>Outils utilisés</h3>
+              <div class="tags large-tags"><span>SQL</span><span>SQLite</span><span>SQL Power Architect</span><span>Excel</span></div>
+            </section>
+
+            <section>
+              <h3>Compétences démontrées</h3>
+              <ul><li>Création d’un dictionnaire de données</li><li>Modélisation d’un schéma relationnel normalisé</li><li>Création et chargement d’une base de données</li><li>Contrôle des volumes et de l’intégrité</li><li>Rédaction, documentation et présentation de requêtes SQL</li></ul>
+            </section>
+          </div>
+
+          <div class="project-deliverables">
+            <strong>Livrables principaux</strong>
+            <p>Dictionnaire, schéma relationnel, script SQL, base chargée, document des douze requêtes et présentation.</p>
+          </div>
+        </div>
+      </article>
+      <article class="project-detail" id="dev-immediat-rgpd">
+        <div class="project-detail-image">
+          <img src="assets/images/projects/dev-immediat-rgpd.svg"
+               alt="Image temporaire du projet Dev’Immediat — Mission RGPD. À remplacer par une capture des étapes Power Query d’anonymisation ou un aperçu du fichier CRM anonymisé sans donnée personnelle.">
+        </div>
+
+        <div class="project-detail-content">
+          <div class="project-detail-heading">
+            <div>
+              <span class="project-number">10</span>
+              <span class="project-category">RGPD • Gouvernance des données</span>
+            </div>
+            <a href="#liste-projets">Retour à la liste ↑</a>
+          </div>
+
+          <h2>Dev’Immediat — Mission RGPD</h2>
+
+          <div class="project-context">
+            <h3>Contexte</h3>
+            <p>À la suite d’une plainte client, Dev’Immediat avait subi une limitation temporaire des traitements. L’entreprise devait appliquer rapidement les règles du RGPD dans ses processus CRM.</p>
+          </div>
+
+          <div class="project-objective">
+            <span>Objectif principal</span>
+            <p>Émettre des recommandations de conformité, anonymiser totalement une extraction du CRM et empêcher l’accès aux données tarifaires détaillées.</p>
+          </div>
+
+          <div class="project-detail-grid">
+            <section>
+              <h3>Outils utilisés</h3>
+              <div class="tags large-tags"><span>SQLite</span><span>SQL</span><span>Power Query</span><span>CSV</span></div>
+            </section>
+
+            <section>
+              <h3>Compétences démontrées</h3>
+              <ul><li>Compréhension et application des principes du RGPD</li><li>Sélection et minimisation des données</li><li>Anonymisation et suppression d’informations sensibles</li><li>Préparation et contrôle qualité avec Power Query</li><li>Documentation d’un processus de conformité</li></ul>
+            </section>
+          </div>
+
+          <div class="project-deliverables">
+            <strong>Livrables principaux</strong>
+            <p>Cinq recommandations RGPD, extraction CSV anonymisée et rapport d’anonymisation de dix pages maximum.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="contact-banner container">
+      <div>
+        <p class="eyebrow">Découvrir mon profil</p>
+        <h2>Ces projets mobilisent des compétences complémentaires</h2>
+        <p>
+          Retrouvez une synthèse de mes compétences techniques, de ma démarche
+          et de mon parcours professionnel.
+        </p>
+      </div>
+      <a class="button primary" href="competences.html">Voir mes compétences</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Riad — Data Analyst.</p>
+      <div class="footer-links">
+        <a href="https://github.com/Riad-cloud/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/riad-zaid-mohamed/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="assets/documents/CV_Riad_Mohamed_Data_Analyst.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+        <a href="#main-content">Haut de page ↑</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
