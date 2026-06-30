@@ -1,39 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img" aria-labelledby="title desc">
-  <title id="title">UOI Games — Étude de marché du jeu vidéo AAA</title>
-  <desc id="desc">Image temporaire. Remplacer par une capture de ton tableau de bord, de l’analyse du questionnaire ou de la diapositive présentant la recommandation ASHFALL.</desc>
+  <title id="title">Primero Bank — Visualisez des données avec Excel</title>
+  <desc id="desc">Image temporaire. Remplacer par une capture de ta présentation Primero Bank montrant une visualisation du churn ou le profil des clients à risque.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#24114b"/>
+      <stop offset="0" stop-color="#133146"/>
       <stop offset="1" stop-color="#07101f"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="#a866ff" stop-opacity=".35"/>
-      <stop offset="1" stop-color="#a866ff"/>
+      <stop offset="0" stop-color="#55b6dc" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#55b6dc"/>
     </linearGradient>
   </defs>
 
   <rect width="1280" height="800" fill="url(#background)"/>
-  <circle cx="1100" cy="110" r="290" fill="#a866ff" opacity=".08"/>
-  <circle cx="120" cy="740" r="300" fill="#a866ff" opacity=".07"/>
+  <circle cx="1100" cy="110" r="290" fill="#55b6dc" opacity=".08"/>
+  <circle cx="120" cy="740" r="300" fill="#55b6dc" opacity=".07"/>
 
   <rect x="68" y="70" width="1144" height="660" rx="38" fill="#0b1729" stroke="#334155" stroke-width="3"/>
   <rect x="108" y="110" width="1064" height="72" rx="16" fill="#111f34"/>
-  <circle cx="150" cy="146" r="11" fill="#a866ff"/>
+  <circle cx="150" cy="146" r="11" fill="#55b6dc"/>
   <circle cx="185" cy="146" r="11" fill="#45d483" opacity=".8"/>
   <rect x="225" y="131" width="270" height="30" rx="8" fill="#273550"/>
 
   <rect x="108" y="218" width="300" height="210" rx="18" fill="#111f34"/>
   <rect x="438" y="218" width="734" height="210" rx="18" fill="#111f34"/>
 
-  <text x="155" y="310" fill="#a866ff" font-family="Arial, sans-serif" font-size="95" font-weight="700">02</text>
+  <text x="155" y="310" fill="#55b6dc" font-family="Arial, sans-serif" font-size="95" font-weight="700">08</text>
   <text x="155" y="365" fill="#a8b3c7" font-family="Arial, sans-serif" font-size="23">PROJET ACADÉMIQUE</text>
 
   <path d="M500 375 C580 310 650 365 725 300 C805 230 920 325 1100 260"
         fill="none" stroke="url(#accent)" stroke-width="17" stroke-linecap="round"/>
 
   <rect x="108" y="458" width="1064" height="220" rx="18" fill="#111f34"/>
-  <text x="155" y="535" fill="#f8fafc" font-family="Arial, sans-serif" font-size="45" font-weight="700">UOI GAMES</text>
-  <text x="155" y="585" fill="#a8b3c7" font-family="Arial, sans-serif" font-size="25">Étude de marché du jeu vidéo AAA</text>
-  <rect x="155" y="615" width="420" height="13" rx="7" fill="#a866ff" opacity=".72"/>
-  <text x="155" y="655" fill="#a866ff" font-family="Arial, sans-serif" font-size="18" font-weight="700">IMAGE TEMPORAIRE — À REMPLACER</text>
+  <text x="155" y="535" fill="#f8fafc" font-family="Arial, sans-serif" font-size="45" font-weight="700">PRIMERO BANK</text>
+  <text x="155" y="585" fill="#a8b3c7" font-family="Arial, sans-serif" font-size="25">Visualisez des données avec Excel</text>
+  <rect x="155" y="615" width="420" height="13" rx="7" fill="#55b6dc" opacity=".72"/>
+  <text x="155" y="655" fill="#55b6dc" font-family="Arial, sans-serif" font-size="18" font-weight="700">IMAGE TEMPORAIRE — À REMPLACER</text>
 </svg>

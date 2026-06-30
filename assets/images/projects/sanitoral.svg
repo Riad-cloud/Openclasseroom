@@ -1,1 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#123b42"/><stop offset="1" stop-color="#07101f"/></linearGradient></defs><rect width="1280" height="800" fill="url(#bg)"/><rect x="70" y="70" width="1140" height="660" rx="34" fill="#0b1729" stroke="#334155" stroke-width="3"/><rect x="110" y="110" width="1060" height="72" rx="16" fill="#111f34"/><circle cx="150" cy="146" r="11" fill="#39c999"/><rect x="190" y="130" width="260" height="30" rx="8" fill="#273550"/><rect x="110" y="220" width="320" height="220" rx="18" fill="#111f34"/><rect x="460" y="220" width="710" height="220" rx="18" fill="#111f34"/><path d="M510 385 C620 290 710 390 805 300 C900 210 1010 335 1120 260" fill="none" stroke="#39c999" stroke-width="18" stroke-linecap="round"/><rect x="110" y="475" width="1060" height="210" rx="18" fill="#111f34"/><text x="150" y="315" fill="#f8fafc" font-family="Arial" font-size="54" font-weight="700">SANITORAL</text><text x="150" y="370" fill="#a8b3c7" font-family="Arial" font-size="25">Capture du tableau de bord Power BI</text><text x="520" y="565" fill="#39c999" font-family="Arial" font-size="34" font-weight="700">IMAGE TEMPORAIRE</text><text x="520" y="615" fill="#a8b3c7" font-family="Arial" font-size="24">Remplace ce fichier par ta capture finale</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img" aria-labelledby="title desc">
+  <title id="title">Sanitoral — Pilotage de projets avec Power BI</title>
+  <desc id="desc">Image temporaire. Remplacer par une capture de la page principale de ton tableau de bord Sanitoral, montrant les KPI, l’avancement, les retards et les budgets.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123b42"/>
+      <stop offset="1" stop-color="#07101f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#38c995" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#38c995"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="800" fill="url(#background)"/>
+  <circle cx="1100" cy="110" r="290" fill="#38c995" opacity=".08"/>
+  <circle cx="120" cy="740" r="300" fill="#38c995" opacity=".07"/>
+
+  <rect x="68" y="70" width="1144" height="660" rx="38" fill="#0b1729" stroke="#334155" stroke-width="3"/>
+  <rect x="108" y="110" width="1064" height="72" rx="16" fill="#111f34"/>
+  <circle cx="150" cy="146" r="11" fill="#38c995"/>
+  <circle cx="185" cy="146" r="11" fill="#45d483" opacity=".8"/>
+  <rect x="225" y="131" width="270" height="30" rx="8" fill="#273550"/>
+
+  <rect x="108" y="218" width="300" height="210" rx="18" fill="#111f34"/>
+  <rect x="438" y="218" width="734" height="210" rx="18" fill="#111f34"/>
+
+  <text x="155" y="310" fill="#38c995" font-family="Arial, sans-serif" font-size="95" font-weight="700">01</text>
+  <text x="155" y="365" fill="#a8b3c7" font-family="Arial, sans-serif" font-size="23">PROJET ACADÉMIQUE</text>
+
+  <path d="M500 375 C580 310 650 365 725 300 C805 230 920 325 1100 260"
+        fill="none" stroke="url(#accent)" stroke-width="17" stroke-linecap="round"/>
+
+  <rect x="108" y="458" width="1064" height="220" rx="18" fill="#111f34"/>
+  <text x="155" y="535" fill="#f8fafc" font-family="Arial, sans-serif" font-size="45" font-weight="700">SANITORAL</text>
+  <text x="155" y="585" fill="#a8b3c7" font-family="Arial, sans-serif" font-size="25">Pilotage de projets avec Power BI</text>
+  <rect x="155" y="615" width="420" height="13" rx="7" fill="#38c995" opacity=".72"/>
+  <text x="155" y="655" fill="#38c995" font-family="Arial, sans-serif" font-size="18" font-weight="700">IMAGE TEMPORAIRE — À REMPLACER</text>
+</svg>
