@@ -21,3 +21,7 @@
 ## Ajustement supplémentaire
 - Centrage vertical et horizontal renforcé des icônes dans les cartes Profil, Coordonnées, Contact et Parcours.
 - Suppression de la formation « 2026 — 2028 — Expert en ingénierie et science des données - Titre RNCP Niveau 7 » des pages CV et Contact.
+
+
+- Correction supplémentaire : centrage renforcé des icônes dans les blocs Profil, Coordonnées et Me contacter.
+- La carte Parcours de la page Contact a été remplacée par une carte Formation identique au contenu de la page CV.
