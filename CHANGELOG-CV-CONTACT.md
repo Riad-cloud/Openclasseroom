@@ -17,3 +17,7 @@
 - Rééquilibrage des grilles desktop.
 - Breakpoints intermédiaires à 1280 px, 960 px et 650 px.
 - Réduction des retours à la ligne non naturels et meilleure gestion des contenus longs.
+
+## Ajustement supplémentaire
+- Centrage vertical et horizontal renforcé des icônes dans les cartes Profil, Coordonnées, Contact et Parcours.
+- Suppression de la formation « 2026 — 2028 — Expert en ingénierie et science des données - Titre RNCP Niveau 7 » des pages CV et Contact.
