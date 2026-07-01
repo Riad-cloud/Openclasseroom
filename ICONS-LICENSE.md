@@ -7,3 +7,5 @@
 - Logos Power BI, Excel, PowerPoint, Power Query, DAX, Pandas et SQLite : SVG locaux transparents, utilisant les couleurs de marque et des proportions homogènes pour cette interface.
 
 Toutes les ressources sont stockées sous `assets/images/icons/` afin d’éviter une dépendance à un CDN en production.
+
+- Les nouvelles icônes des pages CV et Contact, dont le logo LinkedIn, proviennent de Font Awesome Free 6.7.2 et sont stockées localement.
