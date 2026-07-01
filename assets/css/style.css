@@ -934,3 +934,60 @@ a:focus-visible, button:focus-visible { outline: 3px solid rgba(155,135,255,.7);
 .journey-list li > span:last-child > span {
   margin-top: 4px;
 }
+
+
+/* ============================================================
+   AJUSTEMENTS FINAUX — ALIGNEMENT CV & CONTACT
+   ============================================================ */
+.card-title-with-icon {
+  align-items: center;
+}
+.section-icon-frame,
+.meta-icon-frame,
+.contact-row-icon,
+.journey-icon-frame {
+  display: grid;
+  place-items: center;
+  align-self: center;
+}
+.section-icon-frame img,
+.meta-icon-frame img,
+.contact-row-icon img,
+.journey-icon-frame img {
+  display: block;
+  margin: auto;
+}
+.summary-meta > div,
+.contact-data-list > div,
+.contact-link-stack a,
+.contact-link-stack > div {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+}
+.summary-meta > div .meta-icon-frame,
+.contact-data-list > div .contact-row-icon,
+.contact-link-stack a .contact-row-icon,
+.contact-link-stack > div .contact-row-icon {
+  justify-self: center;
+}
+.contact-data-list > div,
+.contact-link-stack a,
+.contact-link-stack > div {
+  min-height: 72px;
+}
+.compact-formation-list {
+  margin-top: 18px;
+  gap: 12px;
+}
+.compact-formation-list article {
+  padding: 10px 0 10px 16px;
+}
+.compact-formation-list h3 {
+  font-size: .98rem;
+  line-height: 1.45;
+}
+.compact-formation-list p {
+  margin-top: 4px;
+  color: var(--muted);
+}
