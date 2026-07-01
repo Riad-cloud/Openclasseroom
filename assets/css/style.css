@@ -883,3 +883,54 @@ a:focus-visible, button:focus-visible { outline: 3px solid rgba(155,135,255,.7);
   .two-columns-row { grid-template-columns:1fr; }
   .button-with-icon { width:100%; }
 }
+
+
+/* ============================================================
+   CORRECTION CENTRAGE DES ICONES — CV ET CONTACT
+   ============================================================ */
+.meta-icon-frame,
+.contact-row-icon,
+.journey-icon-frame {
+  display: grid;
+  place-items: center;
+  align-self: center;
+  padding: 0;
+  line-height: 0;
+}
+
+.meta-icon-frame img,
+.contact-row-icon img,
+.journey-icon-frame img {
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+  object-position: center;
+}
+
+.summary-meta > div,
+.contact-data-list > div,
+.contact-link-stack a,
+.contact-link-stack > div,
+.journey-list li {
+  align-items: center;
+}
+
+.summary-meta > div,
+.contact-data-list > div,
+.contact-link-stack a,
+.contact-link-stack > div {
+  min-height: 68px;
+}
+
+.journey-icon-frame,
+.journey-list li > .journey-icon-frame {
+  margin-top: 0;
+}
+
+.journey-list li > span:last-child {
+  margin-top: 0;
+}
+
+.journey-list li > span:last-child > span {
+  margin-top: 4px;
+}
